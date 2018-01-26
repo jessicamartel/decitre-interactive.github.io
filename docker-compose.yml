@@ -4,7 +4,7 @@ services:
     image: jekyll/jekyll:pages
     volumes:
       - .:/srv/jekyll
-    command: ['jekyll', 'serve', '--watch']
+    command: "jekyll serve --watch --config _config.yml,_config-dev.yml"
     environment:
       VERBOSE: 'true'
 
