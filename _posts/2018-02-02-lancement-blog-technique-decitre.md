@@ -16,8 +16,8 @@ groupe libraire indépendant fondé en 1907. Nous avons [10 librairies](https://
 et nous avons une activité de [location de base de données livres](https://www.base-orb.fr/) (accessible en web ou par API).
 
 Nous avons deux équipes techniques (pour un total d'une douzaine de personnes) :
-* une qui s'occupe des sites web publics et applications SaaS
-* une qui s'occupe des logiciels internes (ERP, logiciel de caisse, informatique internet)
+* une qui s'occupe des sites web publics et applications SaaS,
+* une qui s'occupe des logiciels internes (ERP, logiciel de caisse, informatique internet).
 
 Vous trouverez sur ce blog :
 * des retours d'expérience issus de nos projets (par exemple : comment gérer plusieurs millions de produits sur des projets à fort trafic),
