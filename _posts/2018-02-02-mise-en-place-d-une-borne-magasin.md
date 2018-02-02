@@ -8,9 +8,9 @@ date: 2018-02-02 15:30:00+01:00
 
 > *Mardi 2 mai 2017 - Siège de Decitre - 15h42 - Réunion de planification*
 >
-> *- Bon, l'équipe Marketing aimerait mettre en place une tablette dans les librairies qui permette d'accéder à decitre.fr, à un questionnaire de satisfaction et aux jeux-concours. Un modèle unique de tablette a été choisi, c'est de l'Android. Vous chiffrez ça à combien ?*
+> *- Bon, l'équipe Marketing aimerait mettre en place une tablette dans les librairies qui permette d'accéder à [decitre.fr](https://www.decitre.fr), à un questionnaire de satisfaction et aux jeux-concours. Un modèle unique de tablette a été choisi, c'est de l'Android. Vous chiffrez ça à combien ?*
 >
-> *- Deux jours de dev ? On fait une pauvre page web avec 3 liens, on héberge ça sur [Github pages](https://pages.github.com/) et on n'en parle plus.*
+> *- Deux jours de dev ? On fait une pauvre page web avec 3 liens, on héberge ça sur [Github Pages](https://pages.github.com/) et on n'en parle plus.*
 >
 > *- Vendu pour deux jours*
 
@@ -62,7 +62,7 @@ Le fonctionnement est simple : au clic sur un des volets, on charge une iframe v
 
 
 
-Quant à l'hébergement, afin de faire au plus simple, on décide de passer par [Github pages](https://pages.github.com/).  
+Quant à l'hébergement, afin de faire au plus simple, on décide de passer par [Github Pages](https://pages.github.com/).
 
 Pour isoler notre page Web, on décide de tester de passer un [Manifeste d'application Web](https://developer.mozilla.org/fr/Add-ons/WebExtensions/manifest.json).
 En un fichier JSON, on décrit comment notre page doit se comporter en tant qu’application autonome.
@@ -131,7 +131,7 @@ Dans l'outil, on configure une URL, une icône et voilà. Notre page Web est emb
 
 Et c'est là que les problèmes ont commencé.
 
-Sur decitre.fr, nous avons certains liens qui s'ouvrent dans un nouvel onglet : rien d'exceptionnel. 
+Sur [decitre.fr](https://www.decitre.fr), nous avons certains liens qui s'ouvrent dans un nouvel onglet : rien d'exceptionnel.
 Le souci c'est que dans l'appli kiosque, il n'y a pas d'onglet (normal c'est une WebView d'une page). Il remplace donc la page de la borne par la page appelée.
 
 Sauf qu'il faut autoriser les différents domaines affichables et que si le domaine n'est pas autorisé on a une très belle page blanche, sans aucun bouton retour possible (et je rappelle que les boutons physiques de la tablette ne sont pas accessibles et qu’il n’y a pas de barre de navigation). C'est donc un problème plutôt gênant.
