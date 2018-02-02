@@ -11,6 +11,7 @@ comment_repository: Decitre-Interactive/decitre-interactive.github.io
 git_branch: master
 
 # Build settings
+permalink: /posts/:title
 markdown: kramdown
 highlighter: rouge
 
