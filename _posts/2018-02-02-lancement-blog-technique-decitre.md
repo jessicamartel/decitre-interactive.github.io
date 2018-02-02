@@ -5,8 +5,6 @@ author: elemoine
 date: 2018-02-02 11:00:00+01:00
 ---
 
-# Lancement du blog technique Decitre !
-
 Tout vient à point à qui sait attendre :) Vous l'aviez tant réclamé, nous ne pouvions vous décevoir plus longtemps !
 
 2018 s'annonçant comme une belle année, voici le blog des équipes techniques de Decitre.
