@@ -3,7 +3,7 @@ layout: post
 title:  "Mise en place d'une borne magasin"
 author: srogier
 excerpt: "Comment nous avons mis en place dans nos librairies une borne interactive branchée sur une page web"
-date: 2018-02-02 15:30:00+01:00
+date: 2018-02-02 14:30:00+01:00
 ---
 
 > *Mardi 2 mai 2017 - Siège de Decitre - 15h42 - Réunion de planification*
