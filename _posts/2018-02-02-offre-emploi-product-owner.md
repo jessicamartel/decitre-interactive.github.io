@@ -4,6 +4,7 @@ title: On recrute un·e Product Owner
 author: elemoine
 date: 2018-02-02 15:45:00+01:00
 excerpt: Nous recherchons pour notre siège, basé à Lyon 8ème, en CDI un·e Product Owner motivé·e pour rejoindre nos équipes techniques
+image: /assets/posts/job-offer-product-owner/product-owner.png
 ---
 
 ## Le poste
