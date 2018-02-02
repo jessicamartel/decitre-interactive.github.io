@@ -11,7 +11,7 @@ Tout vient à point à qui sait attendre :) Vous l'aviez tant réclamé, nous ne
 2018 s'annonçant comme une belle année, voici le blog des équipes techniques de Decitre.
 
 Sans vouloir paraphraser [notre site corporate](https://www.decitre-corporate.com/), en quelques mots, Decitre c'est un 
-groupe libraire indépendant fondé en 1907. Nous avons 10 librairies, nous vendons sur Internet à 
+groupe libraire indépendant fondé en 1907. Nous avons [10 librairies](https://www.decitre.fr/nos-librairies), nous vendons sur Internet à 
 [des clients particuliers](https://www.decitre.fr/) ou [des clients professionnels](https://www.decitrepro.fr/) 
 et nous avons une activité de [location de base de données livres](https://www.base-orb.fr/) (accessible en web ou par API).
 
