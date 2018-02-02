@@ -185,6 +185,7 @@ Donc note pour plus tard, sur des câbles USB-C, il faut bien regarder la capaci
     <img
         class="lozad"
         width="445" height="345"
+        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
         data-src="https://imgs.xkcd.com/comics/usb_cables.png"
     />
     <noscript><img src="https://imgs.xkcd.com/comics/usb_cables.png" /></noscript>
