@@ -2,6 +2,7 @@
 layout: post
 title: Lancement du blog technique Decitre !
 author: elemoine
+date: 2018-02-02 11:00:00+01:00
 ---
 
 # Lancement du blog technique Decitre !
