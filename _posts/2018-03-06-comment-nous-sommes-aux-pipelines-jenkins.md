@@ -387,7 +387,7 @@ Docker a cette faculté incroyable à manger de l’espace disque de manière to
 Ce point est mon principal grief contre docker (mais cela pourrait faire l’objet d’un billet à part entière).
 Toujours est-il que j’ai toujours été emballé par la promesse de docker. La réalité par contre est toute autre.
 Dès lors qu’on lance dans Jenkins un docker run avec l’option `--rm` pour supprimer le conteneur à la fin de l’exécution,
-on se retrouve avec un soucis de suppression du volume par docker.
+on se retrouve avec un souci de suppression du volume par docker.
 C’est très probablement lié à notre infrastructure / à la version du kernel que l’on utilise.
 Mais bon courage pour débugger ce genre de problème. D’où d’ailleurs une autre partie de nos problèmes d’espace disque.
 
