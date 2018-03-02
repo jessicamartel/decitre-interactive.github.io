@@ -24,14 +24,14 @@ $imagesByRatio = [];
 $ratios = [1,2];
 $command = 'convert $inputFile -quality 100 -resize $size jpeg:- | jpegoptim --stdin --strip-all --all-progressive --max=$quality --force --stdout > $outputFile';
 foreach ($ratios as $ratio) {
-    $destinationFile = sprintf('%s/%s-%d.%s', $dirname, $basename, $ratio, $extension);
+    $destinationFile = sprintf('%s/%s-%d.jpg', $dirname, $basename, $ratio);
     $size = $argv[2] * $ratio;
 
 
     $process = new \Symfony\Component\Process\Process($command);
     $process->run(null, [
         'inputFile' => $image,
-        'size' => $size,
+        'size' => sprintf('%sx%s', $size, $size),
         'outputFile' => $destinationFile,
         'quality' => 95,
     ]);
