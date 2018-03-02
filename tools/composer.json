@@ -1,5 +1,5 @@
 {
     "require": {
-        "tinify/tinify": "^1.5"
+        "symfony/process": "^4.0"
     }
 }
