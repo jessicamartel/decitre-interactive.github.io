@@ -14,8 +14,6 @@ if (!file_exists($image)) {
     echo "L'image $image n'existe pas \n";
 }
 
-\Tinify\setKey(getenv('TINYPNG_API_KEY'));
-$source = \Tinify\fromFile($image);
 
 $imageInfo = pathinfo($image);
 $basename = $imageInfo['filename'];
@@ -24,28 +22,36 @@ $dirname = $imageInfo['dirname'];
 
 $imagesByRatio = [];
 $ratios = [1,2];
+$command = 'convert $inputFile -quality 100 -resize $size jpeg:- | jpegoptim --stdin --strip-all --all-progressive --max=$quality --force --stdout > $outputFile';
 foreach ($ratios as $ratio) {
     $destinationFile = sprintf('%s/%s-%d.%s', $dirname, $basename, $ratio, $extension);
-
     $size = $argv[2] * $ratio;
 
-    $resized = $source->resize(array(
-        "method" => "fit",
-        "width" => $size,
-        "height" => $size,
-    ));
-    $resized->toFile($destinationFile);
+
+    $process = new \Symfony\Component\Process\Process($command);
+    $process->run(null, [
+        'inputFile' => $image,
+        'size' => $size,
+        'outputFile' => $destinationFile,
+        'quality' => 95,
+    ]);
 
     $imagesByRatio[$ratio] = $destinationFile;
 }
 
+
+$command = 'convert $inputFile -quality 100 -resize $size jpeg:- | jpegoptim --stdin --strip-all --all-progressive --max=$quality --force --stdout | base64 --wrap=0';
+$process = new \Symfony\Component\Process\Process($command);
+$process->run(null, [
+    'inputFile' => $image,
+    'size' => 20,
+    'outputFile' => $destinationFile,
+    'quality' => 20,
+]);
+$imageLight = $process->getOutput();
+
 list($outputWidth, $outputHeight) = getimagesize($imagesByRatio[1]);
 
-$imageLight = $source->resize(array(
-    "method" => "fit",
-    "width" => 30,
-    "height" => 30,
-));
 
 $outputImage = <<<HTML
 
@@ -71,5 +77,5 @@ echo strtr($outputImage, [
     '%ratio_2%' => $imagesByRatio[2],
     '%width%' => $outputWidth,
     '%height%' => $outputHeight,
-    '%base64_light%' => base64_encode($imageLight->toBuffer()),
+    '%base64_light%' => $imageLight,
 ]);

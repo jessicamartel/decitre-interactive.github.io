@@ -13,5 +13,8 @@ RUN apt-get update && apt-get install -y wget
 # utilisé pour récupérer les paquets avec composer
 RUN apt-get update && apt-get install -y git
 
+RUN apt-get update && apt-get install -y jpegoptim
+RUN apt-get update && apt-get install -y imagemagick
+
 WORKDIR /srv/jekyll
 
