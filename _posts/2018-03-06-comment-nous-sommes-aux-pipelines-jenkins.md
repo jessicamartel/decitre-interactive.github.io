@@ -40,7 +40,7 @@ les jobs directement dans le repo github*
 ## Faut “juste” poser un Jenkinsfile dans le projet
 
 Pour tirer parti des dernières fonctionnalités des pipelines, notamment de parallel, il a fallu mettre à jour
-notre Jenkins et ses plugins. Pour la faire courte, les pipelines se sont des builds configurables qui permettent
+notre Jenkins et ses plugins. Pour la faire courte, les pipelines sont des builds configurables qui permettent
 via le DSL de Jenkins de s’adapter aux workflows complexes (type déploiement continu).
 Pour plus d’infos sur les pipelines, voir [ici](https://jenkins.io/doc/book/pipeline/)
 
