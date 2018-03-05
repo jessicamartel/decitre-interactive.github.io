@@ -6,7 +6,7 @@ excerpt: "Comment nous sommes passés aux pipelines pour nos builds Jenkins"
 date: 2018-03-06 11:00:00+01:00
 ---
 
-Il y a maintenant quelque mois, j’ai rejoint l’équipe Decitre Interactive. En arrivant, on me confie un nouveau projet.
+Il y a maintenant quelques mois, j’ai rejoint l’équipe Decitre Interactive. En arrivant, on me confie un nouveau projet.
 C’est cool, j’évite de débuter par un projet qui contient des masses de code à assimiler et ça me permet de me
 familiariser en douceur avec les pratiques de l’équipe.
 
@@ -16,11 +16,11 @@ Vient le moment de configurer l’intégration continue de mon projet. La conver
 >
 > *Euh … c’est le bazar. Y’a des jobs pour les PRs, des jobs pour le master*
 >
-> *Ca fait plein de configuration dupliquée*
+> *Ça fait plein de configuration dupliquée*
 >
 > *Et y’a même du code dans certaines configurations*
 >
-> *Si on en profitait pour tester les pipeline ? Ca permettrait de ne plus dupliquer la configuration et de configurer
+> *Si on en profitait pour tester les pipeline ? Ça permettrait de ne plus dupliquer la configuration et de configurer
 les jobs directement dans le repo github*
 >
 > *Ok, vendu*
@@ -44,7 +44,7 @@ notre Jenkins et ses plugins. Pour la faire courte, les pipelines sont des build
 via le DSL de Jenkins de s’adapter aux workflows complexes (type déploiement continu).
 Pour plus d’infos sur les pipelines, voir [ici](https://jenkins.io/doc/book/pipeline/)
 
-On créé un projet de type “Multibranch pipeline”, on ajoute un Jenkinsfile dans le repo github et c’est parti.
+On crée un projet de type “Multibranch pipeline”, on ajoute un Jenkinsfile dans le repo github et c’est parti.
 
 La première version est assez simple :
 
@@ -311,7 +311,7 @@ Cette propriété va s’appliquer sur le job que Jenkins créé (de lui-même) 
 C’est une première étape, mais comment je fais pour ne pas conserver mes vieilles branches ?
 Limiter le nombre de branches est une solution qui me plait moyennement.
 Mon objectif c’est plutôt conserver les builds sur les branches existantes du projet.
-Ca tombe bien, c’est possible, même si ce n’est pas du tout intuitif.
+Ça tombe bien, c’est possible, même si ce n’est pas du tout intuitif.
 Il faut configurer le Multibranch Pipeline de la manière suivante :
 
 <figure>
@@ -349,7 +349,7 @@ Un autre souci qui s’est posé avec les builds en parallèle c’est que par d
 C’est problématique lorsqu’on lance des commandes pour arrêter les containers.
 Il m’est arrivé que la fin d’un build stop un conteneur utilisé par un autre build.
 Il faut donc différencier les noms des conteneurs.
-Ca tombe bien, la variable d’environnement COMPOSE\_PROJECT\_NAME est là pour ça.
+Ça tombe bien, la variable d’environnement COMPOSE\_PROJECT\_NAME est là pour ça.
 
 ```groovy
 def composeProjectName(String step) {
@@ -369,14 +369,14 @@ Il devient possible de le faire projet par projet.
 
 J’ai implicitement associé les deux changements : utiliser un Jenkinsfile pour contrôler les builds et lancer les tests dans des containers docker.
 Introduire plusieurs changements à la fois c’est **TOUJOURS** une mauvaise idée et pourtant je continue à le faire régulièrement.
-Ca rend l’identification des erreurs beaucoup plus difficile.
-J’aurai tout à fait pu le faire en deux temps, mais j’ai préféré tout faire d’un coup, surement parce que j’aime me compliquer la vie.
+Ça rend l’identification des erreurs beaucoup plus difficile.
+J’aurais tout à fait pu le faire en deux temps, mais j’ai préféré tout faire d’un coup, surement parce que j’aime me compliquer la vie.
 
 ### Marche arrière toute
 
 On a laissé tourner les deux systèmes de builds en parallèle notamment pour s’assurer de la cohérence des résultats des nouveaux builds.
 
-Quelques semaines plus tard, le constat est là, l’utilisation de docker pour lancer les tests nous créé plus de problème qu’elle n’en résout.
+Quelques semaines plus tard, le constat est là, l’utilisation de docker pour lancer les tests nous crée plus de problèmes qu’elle n’en résout.
 
 -   L’espace disque
 
