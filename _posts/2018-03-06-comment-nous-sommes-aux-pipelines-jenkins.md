@@ -20,7 +20,7 @@ Vient le moment de configurer l’intégration continue de mon projet. La conver
 >
 > *Et y’a même du code dans certaines configurations*
 >
-> *Si on en profitait pour tester les pipeline ? Ça permettrait de ne plus dupliquer la configuration et de configurer
+> *Si on en profitait pour tester les pipelines ? Ça permettrait de ne plus dupliquer la configuration et de configurer
 les jobs directement dans le repo github*
 >
 > *Ok, vendu*
