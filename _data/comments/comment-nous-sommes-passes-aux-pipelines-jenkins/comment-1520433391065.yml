@@ -1,0 +1,8 @@
+_id: ecc4c950-2214-11e8-a2b2-bb1a543b87b2
+replying_to: ''
+name: Fx
+email: ''
+message: "Sympa l'article.\r\nSinon pour faire du nettoyage avec Docker, il y a docker volume/image/network/system prune (ce qui n'est pas expliqué dans l'article sur l'utilisation de Docker en production, vu que ca n'existait pas à l'époque)."
+date: '2018-03-07T14:36:31.064Z'
+tags:
+  - comment-subscription
