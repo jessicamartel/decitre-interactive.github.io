@@ -34,7 +34,7 @@ les jobs directement dans le repo github*
     />
     <noscript><img src="https://media.giphy.com/media/3oEjI5VtIhHvK37WYo/giphy.gif" /></noscript>
 
-    <figcaption>Ok, vendu je teste les Jenkinsfile, ça à l'air cool et ça me rappelle Travis</figcaption>
+    <figcaption>Ok, vendu je teste les Jenkinsfile, ça a l'air cool et ça me rappelle Travis</figcaption>
 </figure>
 
 ## Faut “juste” poser un Jenkinsfile dans le projet
@@ -324,7 +324,7 @@ Il faut configurer le Multibranch Pipeline de la manière suivante :
     />
     <noscript><img src="{{ '/assets/posts/jenkinsfile/configuration-build-1.jpg' | prepend: site.baseurl  }}" /></noscript>
 
-    <figcaption>Disard old items permet de supprimer les builds des branches supprimées de Github</figcaption>
+    <figcaption>Discard old items permet de supprimer les builds des branches supprimées de Github</figcaption>
 </figure>
 
 ### Exposition des ports
