@@ -69,7 +69,7 @@ La liste des magasins U était maintenue dans une table spécifique dans notre b
 
 Après la livraison en Relais Colis, en Mondial Relay, dans les magasins U ainsi que dans les magasins Decitre, est venu le moment d’ajouter un cinquième type de point de retrait : la livraison en magasin Carrefour (dans le cadre de la marque blanche [livres.carrefour.fr](https://livres.carrefour.fr)).
 
-Jusqu’à présent, chaque type de point de retrait était géré indépendamment :  la maintenance n’était donc pas facilitée, le coût de l’ajout d’une fonctionnalité dans les modules était  multiplié car il fallait la réécrire autant de fois que de types de point de retrait.
+Jusqu’à présent, chaque type de point de retrait était géré indépendamment :  la maintenance n’était donc pas facilitée, le coût de l’ajout d’une fonctionnalité dans les modules était multiplié car il fallait la réécrire autant de fois que de types de point de retrait.
 
 L’ajout de ce cinquième type nous a donc amené à factoriser cette gestion des points de retrait.
 
@@ -143,7 +143,7 @@ Ces interfaces, issues de modèles fournis par les transporteurs, ont la même u
 
 ## Afficher sur une carte des points sans widget tiers
 
-Nous avions un développement spécifique pour afficher sur une carte les points de retrait disponibles sur site uculture.fr hors du tunnel. Une des volontés était de factoriser cette partie afin d’avoir un affichage de carte similaire entre celui du tunnel de commande et hors de celui-ci.
+Nous avions un développement spécifique pour afficher sur une carte les points de retrait disponibles sur le site uculture.fr en dehors du tunnel. Une des volontés était de factoriser cette partie afin d’avoir un affichage de carte similaire entre celui du tunnel de commande et hors de celui-ci.
 
 ## Une interface unifiée
 
@@ -151,11 +151,11 @@ Un des objectifs était de permettre d'afficher les points Relais Colis et Mondi
 
 En général les utilisateurs sont plus intéressés par la localisation et les horaires du retrait que par le choix du transporteur.
 
-Avant mise en production complète, les performances de cette nouvelle carte unifiée furent comparées à celles de la version précédente (ou les cartes des deux transporteurs sont séparées), dans le cadre d’un test A/B, qui nous a permis de valider qu’il n’y avait au moins autant de commandes avec cette nouvelle version.
+Avant mise en production complète, les performances de cette nouvelle carte unifiée furent comparées à celles de la version précédente (où les cartes des deux transporteurs sont séparées), dans le cadre d’un test A/B, qui nous a permis de valider qu’il qu’il y avait au moins autant de commandes avec cette nouvelle version.
 
 ## Une interface similaire selon le mode de commande
 
-Comme vu précédemment les modales de choix de point Relais Colis et Mondial Relay présentaient une interface différente. Un de objectifs était d’uniformiser cet affichage.
+Comme vu précédemment les modales de choix de point Relais Colis et Mondial Relay présentaient une interface différente. Un des objectifs était d’uniformiser cet affichage.
 
 ## Ergonomie
 
@@ -232,11 +232,11 @@ Certains points de retrait peuvent être temporairement fermés pour congés :
 * Si la fermeture advient en dehors des dates de promesse de livraison, nous les affichons à titre informatif.
 * Si la fermeture advient pendant les dates de promesse de livraison, le point sera alors masqué, pour éviter au client de se faire livrer dans un point inaccessible.
 
-Un tel contrôle sur les règles d’affichage des points nous permet donc de fournir à nos clients un service de meilleur qualité en s’assurant que le point de retrait ne soit pas fermé, et éviter ainsi des problèmes à la livraison.
+Un tel contrôle sur les règles d’affichage des points nous permet donc de fournir à nos clients un service de meilleure qualité en s’assurant que le point de retrait ne soit pas fermé, et éviter ainsi des problèmes à la livraison.
 
 # Pistes d'amélioration
 
-Nous avons passé en production celle nouvelle version du choix des points de retrait, mais nous avons de nouvelles idées d’évolutions pour la suite :
+Nous avons passé en production cette nouvelle version du choix des points de retrait, mais nous avons de nouvelles idées d’évolutions pour la suite :
 
 * Parfois certaines adresses ne peuvent être géocodées. Afin de limiter le nombre de recherches infructueuses, une possibilité serait de supprimer au fur et à mesure des mots de la recherche afin de tomber sur une recherche dont le geocoding fonctionne.
 * Toujours dans l’optique d’améliorer la recherche, nous pourrions ajouter de l’autocomplétion. Pour cela une des pistes envisagées serait l’utilisation d’[Algolia Places](https://community.algolia.com/places/).
