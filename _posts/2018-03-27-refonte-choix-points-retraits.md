@@ -36,14 +36,14 @@ Dans cet article nous allons présenter pourquoi cette refonte a été effectué
 </figure>
 
 <figure>
-    <img
-        class="lozad"
-        width="890" height="641"
-        src="data:image;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//j/2wBDASstLTw1PHZBQXb4pYyl+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj/wgARCAAOABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAQAE/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB0shEf//EABYQAQEBAAAAAAAAAAAAAAAAABEAIP/aAAgBAQABBQLK3//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABQQAQAAAAAAAAAAAAAAAAAAACD/2gAIAQEABj8CX//EABkQAAIDAQAAAAAAAAAAAAAAAAABEBExkf/aAAgBAQABPyHghlQtD//aAAwDAQACAAMAAAAQR8//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAbEAEAAgMBAQAAAAAAAAAAAAABABEhMZFBUf/aAAgBAQABPxAc1Qi1g5ALo5Ap5yBXsMUv5mf/2Q=="
-        data-src="{{ '/assets/posts/refonte-choix-points-retraits/mondial_relay_avant-1.jpg' | prepend: site.baseurl  }}"
-        data-srcset="{{ '/assets/posts/refonte-choix-points-retraits/mondial_relay_avant-1.jpg' | prepend: site.baseurl  }} 1x, {{ '/assets/posts/refonte-choix-points-retraits/mondial_relay_avant-2.jpg' | prepend: site.baseurl  }} 2x"
+    <img 
+        class="lozad" 
+        width="890" height="632"
+        src="data:image;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//j/2wBDASstLTw1PHZBQXb4pYyl+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj/wgARCAAOABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECBP/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHRUuGBX//EABUQAQEAAAAAAAAAAAAAAAAAABEg/9oACAEBAAEFAmv/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAUEAEAAAAAAAAAAAAAAAAAAAAg/9oACAEBAAY/Al//xAAYEAEBAQEBAAAAAAAAAAAAAAABACEQMf/aAAgBAQABPyHEM+8Mm//aAAwDAQACAAMAAAAQjA//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAaEAADAQEBAQAAAAAAAAAAAAAAAREhMUGh/9oACAEBAAE/EHWTzxDH2ENs+ETddFWEsOtdP//Z"
+        data-src="{{ '/assets/posts/refonte-choix-points-retraits/relais_colis_et_mondial_relay_apres-1.jpg' | prepend: site.baseurl  }}" 
+        data-srcset="{{ '/assets/posts/refonte-choix-points-retraits/relais_colis_et_mondial_relay_apres-1.jpg' | prepend: site.baseurl  }} 1x, {{ '/assets/posts/refonte-choix-points-retraits/relais_colis_et_mondial_relay_apres-2.jpg' | prepend: site.baseurl  }} 2x" 
     />
-    <noscript><img src="{{ '/assets/posts/refonte-choix-points-retraits/mondial_relay_avant-1.jpg' | prepend: site.baseurl  }}" /></noscript>
+    <noscript><img src="{{ '/assets/posts/refonte-choix-points-retraits/relais_colis_et_mondial_relay_apres-1.jpg' | prepend: site.baseurl  }}" /></noscript>
 
     <figcaption>Modale de choix de Relais Colis ou Mondial Relay après la refonte.</figcaption>
 </figure>
