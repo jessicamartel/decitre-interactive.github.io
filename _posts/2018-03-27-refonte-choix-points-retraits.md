@@ -151,7 +151,7 @@ Un des objectifs était de permettre d'afficher les points Relais Colis et Mondi
 
 En général les utilisateurs sont plus intéressés par la localisation et les horaires du retrait que par le choix du transporteur.
 
-Avant mise en production complète, les performances de cette nouvelle carte unifiée furent comparées à celles de la version précédente (où les cartes des deux transporteurs sont séparées), dans le cadre d’un test A/B, qui nous a permis de valider qu’il qu’il y avait au moins autant de commandes avec cette nouvelle version.
+Avant mise en production complète, les performances de cette nouvelle carte unifiée furent comparées à celles de la version précédente (où les cartes des deux transporteurs sont séparées), dans le cadre d’un test A/B, qui nous a permis de valider qu’il y avait au moins autant de commandes avec cette nouvelle version.
 
 ## Une interface similaire selon le mode de commande
 
