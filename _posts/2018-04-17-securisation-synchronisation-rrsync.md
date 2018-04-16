@@ -5,7 +5,7 @@ author: srogier
 date: 2018-04-17 10:00:00+02:00
 ---
 
-Notre besoin est simple : afin de ne pas stocker sur nos serveurs de production plusieurs gigaoctets mensuels de logs divers, stockés dans des fichiers, nous souhaitons mettre en place un mécanisme qui nous permettrait de déplacer ces fichiers de logs sur des serveurs où l'espace disque n'est pas (trop) un problème.
+Afin de ne pas stocker sur nos serveurs de production plusieurs gigaoctets mensuels de logs divers, stockés dans des fichiers, nous souhaitons mettre en place un mécanisme qui nous permettrait de déplacer ces fichiers de logs sur des serveurs où l'espace disque n'est pas (trop) un problème.
 
 Pour ces synchronisations, voici les contraintes que nous nous sommes fixées :
 
@@ -177,7 +177,7 @@ Et voilà, grâce à cette commande, on lance simplement rsync sur notre machine
     />
     <noscript><img src="https://media.giphy.com/media/3ohs4gSs3V0Q7qOtKU/giphy.gif" /></noscript>
 
-    <figcaption>Notre script de synchronisation de données en train de tourner<a href="http://gph.is/2EpCeKc">http://gph.is/2EpCeKc</a></figcaption>
+    <figcaption>Notre script de synchronisation de données en train de tourner <a href="http://gph.is/2EpCeKc">http://gph.is/2EpCeKc</a></figcaption>
 </figure>
 
 Tout ça se fait sans avoir à fournir un effort de configuration trop poussé pour les non-administrateurs systèmes que nous sommes.
