@@ -2,7 +2,7 @@
 layout: post
 title: Comment nous avons sécurisé nos synchronisations de fichiers avec rrsync
 author: srogier
-date: 2018-04-17 10:00:00+02:00
+date: 2018-04-17 11:00:00+02:00
 ---
 
 Afin de ne pas stocker sur nos serveurs de production plusieurs gigaoctets mensuels de logs divers, stockés dans des fichiers, nous souhaitons mettre en place un mécanisme qui nous permettrait de déplacer ces fichiers de logs sur des serveurs où l'espace disque n'est pas (trop) un problème.
