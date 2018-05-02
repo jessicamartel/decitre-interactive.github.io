@@ -2,6 +2,6 @@ _id: b8486650-4dfc-11e8-8aab-efdbeaad8bc2
 replying_to: f9058a20-4dfb-11e8-8aab-efdbeaad8bc2
 name: Sébastien Rogier
 email: d962ede646a73614bd7014beb8850019
-message: "On l'a orienté dans ce sens limiter l'autorisation des accès aux serveurs de prod. \r\nOn a préféré ouvrir l'accès aux serveurs de stockage qui sont \"moins critiques\" que ceux de notre production."
+message: "On l'a orienté dans ce sens pour limiter l'autorisation des accès aux serveurs de prod. \r\nOn a préféré ouvrir l'accès aux serveurs de stockage qui sont \"moins critiques\" que ceux de notre production."
 date: '2018-05-02T11:34:06.468Z'
 tags: []
