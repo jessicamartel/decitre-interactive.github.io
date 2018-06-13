@@ -7,8 +7,6 @@ excerpt: Nous étions à MiXiT 2018, voici nos retours :)
 image: /assets/posts/retours-sur-mixit-2018/logo-mixit.png
 ---
 
-# Nos retours sur MiXiT 2018
-
 La team Decitre était présente cette année à [MiXiT](https://mixitconf.org/), ayant eu la chance d'avoir des places 
 au tirage au sort :)
 
