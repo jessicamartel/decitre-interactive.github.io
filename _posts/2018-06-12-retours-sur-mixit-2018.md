@@ -10,11 +10,11 @@ image: /assets/posts/retours-sur-mixit-2018/logo-mixit.png
 La team Decitre était présente cette année à [MiXiT](https://mixitconf.org/), ayant eu la chance d'avoir des places 
 au tirage au sort :)
 
-Eric Lemoine et Sébastien Rogier étaient donc sur place.
+Éric Lemoine et Sébastien Rogier étaient donc sur place.
 
 ## Jeudi 19 avril
 
-### [Vue.js, le framework progressif](https://mixitconf.org/2018/vue-js-le-framework-progressif), *vue par Eric & Sébastien*
+### [Vue.js, le framework progressif](https://mixitconf.org/2018/vue-js-le-framework-progressif), *vue par Éric & Sébastien*
 
 Très bonne présentation du [framework Vue.js](https://vuejs.org/) faite par Guillaume Chau, un des membres de la Core 
 Team de Vue.js. 
@@ -22,7 +22,7 @@ Team de Vue.js.
 Le sujet est plus dédié aux personnes qui souhaitent découvrir les principes et les grandes lignes derrière ce framework. 
 Guillaume a présenté comment approcher le framework et les principaux modules officiels qui le compose.
 
-### [Retour d'expérience de l'équipe Player à France Télévisions : passer de faire de l'Agile à être Agile](https://mixitconf.org/2018/retour-d-experience-de-l-equipe-player-a-france-televisions-passer-de-faire-de-l-agile-a-etre-agile), *vue par Eric*
+### [Retour d'expérience de l'équipe Player à France Télévisions : passer de faire de l'Agile à être Agile](https://mixitconf.org/2018/retour-d-experience-de-l-equipe-player-a-france-televisions-passer-de-faire-de-l-agile-a-etre-agile), *vue par Éric*
 
 Retour d'expérience en duo pour cette équipe de France Télévisions, avec Jean-Pierre Lamber, coach agile, et 
 Richard Sourianarayanane, le product owner de l'équipe.
@@ -49,7 +49,7 @@ plus qu'une réunion classique.
 
 Un sujet très intéressant, avec beaucoup de situations et des exemples de jeu variés.
 
-### [Cessons les estimations !](https://mixitconf.org/2018/cessons-les-estimations-), *vue par Eric*
+### [Cessons les estimations !](https://mixitconf.org/2018/cessons-les-estimations-), *vue par Éric*
 
 Un des meilleurs talks qu'il m'ait été donné de voir :)
 
@@ -79,7 +79,7 @@ Ils nous ont expliqué la mise en place de ce mentoring, les avantages que cela 
 s'intégre au mieux, et la manière dont la progression est suivie jusqu'au moment où le mentoré devient également en 
 position d'aider de nouveaux venus.
 
-### [Serverless is the new back](https://mixitconf.org/2018/serverless-is-the-new-back), *vue par Eric*
+### [Serverless is the new back](https://mixitconf.org/2018/serverless-is-the-new-back), *vue par Éric*
 
 Autre sujet très à la mode en ce moment, le Serverless. Selon moi (à discuter avec plaisir :)) un sujet très *hype* 
 avec de rares cas d'usage très spécifiques.
@@ -91,7 +91,7 @@ Un des gros inconvénients que je vois actuellement avec les lambda, telles que 
 vendor lock-in. On devient extrêmement lié à son fournisseur d'infrastructure sans possibilité de facilement changer. 
 C'est clairement un choix technique d'ordre stratégique.
 
-### [15 Years of Spring](https://mixitconf.org/2018/15-years-of-spring), *vue par Eric*
+### [15 Years of Spring](https://mixitconf.org/2018/15-years-of-spring), *vue par Éric*
 
 Première conférence sur un sujet Java à laquelle j'assiste :)
 
@@ -102,7 +102,7 @@ La critique est aisée mais j'ai trouvé dommage que Juergen se concentre dans s
 changelog alors qu'il y avait selon moi un sujet à part entière de comment on gère un projet d'une telle ampleur 
 pendant une telle durée : gestion de la communauté, vision produit, roadmap...
 
-### [Typographie et accessibilité](https://mixitconf.org/2018/typographie-et-accessibilite), *vue par Eric & Sébastien*
+### [Typographie et accessibilité](https://mixitconf.org/2018/typographie-et-accessibilite), *vue par Éric & Sébastien*
 
 Pour cette conférence, le sujet était de présenter comment améliorer la gestion de typographie sur nos sites web pour 
 en améliorer l'accessibilité.
@@ -115,7 +115,7 @@ Choix de la police, longueur et hauteur de ligne, taille des caractères, couleu
 multiples et Marie nous conseille de donner la possibilité de rendre réglable ces différents aspects pour que chaque 
 utilisateur puisse utiliser au mieux les interfaces.
 
-### [#RetourAuxSources : Les cookies HTTP](https://mixitconf.org/2018/-retourauxsources-les-cookies-http), *vue par Eric & Sébastien*
+### [#RetourAuxSources : Les cookies HTTP](https://mixitconf.org/2018/-retourauxsources-les-cookies-http), *vue par Éric & Sébastien*
 
 À l'opposé des technologies jeunes et modernes comme Serverless ou Vue.js, Hubert Sablonnière a décidé de nous parler 
 d'un concept qui date du milieu des années 90 : les Cookies.
