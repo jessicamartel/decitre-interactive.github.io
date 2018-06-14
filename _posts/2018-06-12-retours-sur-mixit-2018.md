@@ -56,7 +56,7 @@ Un des meilleurs talks qu'il m'ait été donné de voir :)
 Frédéric Leguédois, dans un talk subversif, dynamite ce sujet souvent sensible et politique des estimations dans 
 le monde du développement logiciel, en évangélisant le courant #noEstimates.
 
-Un one man show magique, qui tend à démontrer l'inexactitude des méthodes d'estimations, qui se sont succédées 
+Un one man show magique, qui tend à démontrer l'inexactitude des méthodes d'estimations, qui se sont succédé 
 depuis plusieurs dizaines d'années ([COCOMO](https://en.wikipedia.org/wiki/COCOMO) <3).
 
 La deadline est une des plus grosses sources de génération de bugs.
