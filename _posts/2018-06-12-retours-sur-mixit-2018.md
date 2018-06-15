@@ -72,7 +72,7 @@ Le talk n'étant pas dispo en replay, si vous avez l'occasion de le voir dans un
 
 ### [Mentoring à tous les étages](https://mixitconf.org/2018/mentoring-a-tous-les-etages), *vue par Sébastien*
 
-Cette présentation était un très bon retour d'expérience sur la mise en place d'un programme de mentoring effectuée 
+Cette présentation était un très bon retour d'expérience sur la mise en place d'un programme de mentoring effectuée par
 un binôme mentor-mentorée. 
 
 Ils nous ont expliqué la mise en place de ce mentoring, les avantages que cela apporte au nouvel arrivant pour qu'il 
