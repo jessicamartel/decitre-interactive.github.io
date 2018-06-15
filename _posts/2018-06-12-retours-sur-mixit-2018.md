@@ -72,7 +72,7 @@ Le talk n'étant pas dispo en replay, si vous avez l'occasion de le voir dans un
 
 ### [Mentoring à tous les étages](https://mixitconf.org/2018/mentoring-a-tous-les-etages), *vue par Sébastien*
 
-Cette présentation était un très bon retour expérience sur la mise en place d'un programme de mentoring effectuée 
+Cette présentation était un très bon retour d'expérience sur la mise en place d'un programme de mentoring effectuée 
 un binôme mentor-mentorée. 
 
 Ils nous ont expliqué la mise en place de ce mentoring, les avantages que cela apporte au nouvel arrivant pour qu'il 
@@ -107,12 +107,12 @@ pendant une telle durée : gestion de la communauté, vision produit, roadmap...
 Pour cette conférence, le sujet était de présenter comment améliorer la gestion de typographie sur nos sites web pour 
 en améliorer l'accessibilité.
 
-Au déla des obligations légales concernant l'accessibilité, Marie Guillaumet nous a présenté les différents types 
+Au-delà des obligations légales concernant l'accessibilité, Marie Guillaumet nous a présenté les différents types 
 de handicaps sur lesquels la typographie pouvait être travaillée, puis la manière dont elle pouvait être adaptée pour 
 le plus grand nombre.
 
 Choix de la police, longueur et hauteur de ligne, taille des caractères, couleur de texte : les possibilités sont 
-multiples et Marie nous conseille de donner la possibilité de rendre réglable ces différents aspects pour que chaque 
+multiples et Marie nous conseille de donner la possibilité de rendre réglables ces différents aspects pour que chaque 
 utilisateur puisse utiliser au mieux les interfaces.
 
 ### [#RetourAuxSources : Les cookies HTTP](https://mixitconf.org/2018/-retourauxsources-les-cookies-http), *vue par Éric & Sébastien*
