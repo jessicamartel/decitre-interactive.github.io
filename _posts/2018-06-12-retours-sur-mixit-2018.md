@@ -28,12 +28,12 @@ Retour d'expérience en duo pour cette équipe de France Télévisions, avec Jea
 Richard Sourianarayanane, le product owner de l'équipe.
 
 Retour sur 2 ans de transition agile pour cette équipe qui a rencontré un certain nombre d'embûches notamment 
-liés à la transversalité du produit qu'ils développent : le player video des différentes sites et applications 
+liées à la transversalité du produit qu'ils développent : le player video des différentes sites et applications 
 natives Android et iOS du groupe France Télévisions.
 
 Il a fallu un certain temps pour que l'équipe appréhende le fait qu'elle développait un produit à part entière 
 et qu'elle devait le gérer en temps que tel (vision produit, roadmap, savoir dire non à certaines demandes qui 
-ne s'intègre pas dans la vision produit de l'équipe...).
+ne s'intègrent pas dans la vision produit de l'équipe...).
 
 L'accent a été mis aussi lors de cette présentation sur le fait d'avoir un board physique (ils ont rapidement 
 supprimé l'usage de Jira qui avait été initialement mis en place) et que ce board évolue avec la vie du projet 
@@ -42,7 +42,7 @@ hésiter à faire évoluer.
 
 ### [Utilisation de Jeux en management de projet](https://mixitconf.org/2018/utilisation-de-jeux-en-management-de-projet), *vue par Sébastien*
 
-Cette conférence nous a présenté comment dans un contexte agile, on peut arriver à avancer à l'aide d'outils ludiques.
+Cette conférence nous a présenté comment, dans un contexte agile, on peut arriver à avancer à l'aide d'outils ludiques.
 En fonction de différents cas (provoquer du retour d'expérience, définir un produit, prioriser des tâches, améliorer 
 des processus, constituer des équipes), on peut mettre en place certains jeux qui vont faciliter la discussion bien 
 plus qu'une réunion classique.
@@ -120,7 +120,7 @@ utilisateur puisse utiliser au mieux les interfaces.
 À l'opposé des technologies jeunes et modernes comme Serverless ou Vue.js, Hubert Sablonnière a décidé de nous parler 
 d'un concept qui date du milieu des années 90 : les Cookies.
 
-Pendant cette dynamique présentation, nous avons pu voir l'origine de ces fameux Cookies, comment ils fonctionnement, 
+Pendant cette dynamique présentation, nous avons pu voir l'origine de ces fameux Cookies, comment ils fonctionnent, 
 les règles d'application en fonction des domaines ainsi que les possibilités de sécurisation (Same Origin Policy, Secure, Referer).
 La conférence était bien illustrée avec quelques démos accompagnant les différentes notions de sécurisation présentées, 
 mais aussi quelques rappels concernant le tracking et le respect de la vie privée.
