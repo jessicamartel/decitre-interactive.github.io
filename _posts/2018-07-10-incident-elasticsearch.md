@@ -41,7 +41,7 @@ Cette facette était générée en ajoutant une agrégation comme celle-ci lors 
     }
 ```
 
-Cette agrégation va envoyer le nombre de produits trouvés dans chaque intervalle de 5€ entre le prix minimum et maximum. Ces intervalle sont appelées buckets.
+Cette agrégation va envoyer le nombre de produits trouvés dans chaque intervalle de 5€ entre le prix minimum et maximum. Ces intervalles sont appelés buckets.
 
 Cela faisait plus de 3 années que cette fonctionnalité était en production et ne nous avait pas posé de problème.
 
@@ -74,7 +74,7 @@ Mais un midi de mai 2018 notre cluster Elasticsearch (en version 5.5.3) a nettem
 
 Après redémarrage du cluster, l’erreur apparaissait après un délai différent à chaque fois. Comme nous le verrons par la suite cela était dû au fait qu’elle dépendait des produits retournés dans les résultats de recherche.
 
-Après plusieurs minutes d’indisponibilité, et avoir recherché la source du problème, nous avons désactivé les facettes sur l’application afin de la rendre à nouveau celle-ci disponible.
+Après plusieurs minutes d’indisponibilité, et avoir recherché la source du problème, nous avons désactivé les facettes sur l’application afin de rendre à nouveau celle-ci disponible.
 
 Cette erreur était due à un problème dans nos données : en effet, nous importons les données reçues depuis notre ERP sans effectuer de validation au niveau du prix.
 
