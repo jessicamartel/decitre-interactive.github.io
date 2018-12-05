@@ -12,13 +12,11 @@ agallou:
 
 schanel:
   name: Sébastien Chanel
+  gravatar: 9425ed85814789e43420f7f09b5f0d63
 
 elemoine:
   name: Eric Lemoine
   gravatar: 4bb93034715732d444b300fc0bd5dfd6
 
-ohugonnot:
-  name: Odilon Hugonnot
-
-hsanchez:
-  name: Hugo Sanchez
+vdechenaux:
+  name: Vincent Dechenaux
