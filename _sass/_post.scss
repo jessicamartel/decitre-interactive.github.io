@@ -40,4 +40,11 @@
     max-width: 100%;
     height: auto;
   }
+
+  .language-xml, .language-java {
+    background-color: #eeeeee;
+    .highlight {
+      background-color: transparent;
+    }
+  }
 }

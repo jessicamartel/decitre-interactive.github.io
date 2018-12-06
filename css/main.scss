@@ -20,14 +20,6 @@ $color-link-hover: $base-color-darker !default;
 
 $base-font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 
-.language-xml,
-.language-java {
-  background-color: #eeeeee;
-  .highlight {
-    background-color: transparent;
-  }
-}
-
 @import
   "base",
   "form",
