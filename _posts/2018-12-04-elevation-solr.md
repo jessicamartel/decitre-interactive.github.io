@@ -23,7 +23,7 @@ C’est ce moteur de recherche que nous utilisons sur [decitre.fr](https://www.d
     />
     <noscript><img src="https://media.giphy.com/media/3o7TKnvDNYADdLYZIQ/giphy.gif" /></noscript>
 
-    <figcaption>Et que l'élévation soit ! <a href="https://gph.is/2ggKnjW" target="_blank" >https://gph.is/2ggKnjW</a></figcaption>
+    <figcaption>Que l'élévation soit ! <a href="https://gph.is/2ggKnjW" target="_blank" >https://gph.is/2ggKnjW</a></figcaption>
 </figure>
 
 Le principe de l’élévation, aussi connu sous le nom de « recherche sponsorisée », est lors d’une recherche sur un moteur tel que Google, ou dans notre cas Solr, de faire remonter en premier des résultats correspondants à la requête saisie par l’utilisateur.
@@ -252,7 +252,7 @@ L’utilisateur saisit *“piece“* dans la recherche.
 Idem *“piece”* correspondant à un des termes, le document est retourné.
 Mais voilà, dans ce cas, je voulais seulement que les documents soient élevés quand tous les termes correspondent, sinon cela n’a pas vraiment de sens.
 
-Alors vous me direz, facile, il y a juste à passer le q.op à AND, comme cela tous les les termes devront correspondre.
+Alors vous me direz, facile, il y a juste à passer le q.op à AND, comme cela tous les termes devront correspondre.
 Oui c’est vrai, c’est même tellement vrai que ça en est trop restrictif.
 
 Si on reprend notre exemple sur “one piece” il faudrait que l’utilisateur saisisse *“one piece”* pour que l’élévation soit retournée, en revanche, cela ne fonctionnerait pas en saisissant *“one”*, ce qui est attendu, mais également en saisissant *“one piece manga”*, ce qui est plus embêtant.
@@ -285,7 +285,7 @@ Cela va nous permettre de rechercher des documents dont le nombre de termes est 
 Cela évitera également de trouver des résultats pour des requêtes utilisateur dont le nombre de termes est inférieur au nombre de termes de l’élévation.
 En reprenant notre exemple de l’index ci-dessus, si l’utilisateur saisit *“one”*, seuls les termes d’élévation de query_length à 1 seront recherchés. Donc *“one piece”* n’en fera pas partie et ne sera pas retourné.
 
-Nous voilà arrivé au résultat escompté !
+Nous voilà arrivés au résultat escompté !
 
 
 ## Le mot de la fin
