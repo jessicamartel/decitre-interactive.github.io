@@ -8,7 +8,7 @@ excerpt: Générer une documentation intra-applicative avec Asciidoc
 
 # Introduction
 
-[ORB](https://www.base-orb.fr) notre outil de recherche bibliographique vendu en SaaS a toujours eu un large éventail fonctionnel (vous pouvez en demander une demo sur https://www.base-orb.fr/contact), et dès ses premières versions avait une documentation incluse dans l’application. Il y a quelques mois nous avons nettement amélioré celle-ci. Nous verrons ci-dessous pourquoi et comment.
+[ORB](https://www.base-orb.fr) notre outil de recherche bibliographique vendu en SaaS a toujours eu un large éventail fonctionnel (vous pouvez en demander une demo sur [la page dédiée](https://www.base-orb.fr/contact), et dès ses premières versions avait une documentation incluse dans l’application. Il y a quelques mois nous avons nettement amélioré celle-ci. Nous verrons ci-dessous pourquoi et comment.
 
 # Notre problématique / Nos besoins
 
