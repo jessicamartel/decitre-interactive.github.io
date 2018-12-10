@@ -75,7 +75,18 @@ Afin de générer cet aperçu nous avons utilisé [Asciidoctor.js](https://ascii
 
 Après mise en place, voici le rendu de la documentation au sein d’ORB :
 
-TODO ajouter screenshot
+<figure>
+    <img 
+        class="lozad" 
+        width="600" height="318"
+        src="data:image;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//j/2wBDASstLTw1PHZBQXb4pYyl+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAQL/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABq3hEViCv/8QAGRAAAQUAAAAAAAAAAAAAAAAAAAECEBEx/9oACAEBAAEFApdliH//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAUEAEAAAAAAAAAAAAAAAAAAAAg/9oACAEBAAY/Al//xAAYEAADAQEAAAAAAAAAAAAAAAAAASEQEf/aAAgBAQABPyFbA6Hh/9oADAMBAAIAAwAAABDf3//EABURAQEAAAAAAAAAAAAAAAAAAAAh/9oACAEDAQE/EIj/xAAVEQEBAAAAAAAAAAAAAAAAAAAQIf/aAAgBAgEBPxCn/8QAHBAAAgICAwAAAAAAAAAAAAAAAAERITFBUXGR/9oACAEBAAE/EGtqRLogutZks14h7eYzwf/Z"
+        data-src="{{ '/assets/posts/documentation-intra-applicative-asciidoc/front-1.jpg' | prepend: site.baseurl  }}" 
+        data-srcset="{{ '/assets/posts/documentation-intra-applicative-asciidoc/front-1.jpg' | prepend: site.baseurl  }} 1x, {{ '/assets/posts/documentation-intra-applicative-asciidoc/front-2.jpg' | prepend: site.baseurl  }} 2x" 
+    />
+    <noscript><img src="{{ '/assets/posts/documentation-intra-applicative-asciidoc/front-1.jpg' | prepend: site.baseurl  }}" /></noscript>
+
+    <figcaption>Rendu de la documentation au sein de l'application</figcaption>
+</figure>
 
 La documentation est complètement intégrée à l’application. La version (librairie / bibliothèque) est affichée en fonction de l’utilisateur connecté. Un bouton permet à l’utilisateur de télécharger une version PDF afin de pouvoir consulter la documentation hors ligne.
 
@@ -83,7 +94,18 @@ La documentation est complètement intégrée à l’application. La version (li
 Et voici le rendu de la gestion de la documentation dans l’administration :
 
 
-TODO ajouter screenshort
+<figure>
+    <img 
+        class="lozad" 
+        width="600" height="304"
+        src="data:image;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//j/2wBDASstLTw1PHZBQXb4pYyl+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj/wgARCAAKABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAwAB/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAABZSU2yP/EABYQAAMAAAAAAAAAAAAAAAAAAAMQMv/aAAgBAQABBQIUIUL/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAUEAEAAAAAAAAAAAAAAAAAAAAg/9oACAEBAAY/Al//xAAXEAADAQAAAAAAAAAAAAAAAAAAARAx/9oACAEBAAE/IcBzAc//2gAMAwEAAgADAAAAEFDP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGRABAQADAQAAAAAAAAAAAAAAAQAQMZGh/9oACAEBAAE/EF0YCmPQ20X/2Q=="
+        data-src="{{ '/assets/posts/documentation-intra-applicative-asciidoc/admin-1.jpg' | prepend: site.baseurl  }}" 
+        data-srcset="{{ '/assets/posts/documentation-intra-applicative-asciidoc/admin-1.jpg' | prepend: site.baseurl  }} 1x, {{ '/assets/posts/documentation-intra-applicative-asciidoc/admin-2.jpg' | prepend: site.baseurl  }} 2x" 
+    />
+    <noscript><img src="{{ '/assets/posts/documentation-intra-applicative-asciidoc/admin-1.jpg' | prepend: site.baseurl  }}" /></noscript>
+
+    <figcaption>Gestion de la documentation dans l'administration</figcaption>
+</figure>
 
 Dans la zone de texte à gauche toute la documentation y est saisie. A droite, l’aperçu se met à jour en cliquant sur un bouton. Un autre bouton permet de changer cet aperçu pour passer de la version bibliothèque à la version librairie. En faisant glisser/déposer une image dans la zone de texte, celle-ci est uploadée et la balise correspondante est ajoutée dans la zone de texte.
 
