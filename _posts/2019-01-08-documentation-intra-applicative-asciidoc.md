@@ -22,7 +22,7 @@ Nous avions donc plusieurs problèmes :
 * Il n’était pas possible de faire un lien direct vers une section particulière de la documentation (ce qui empêchait par exemple sur une modale d’avoir un lien sur le détail d’une fonctionnalité).
 * Le workflow de modification de la documentation n'incitait pas à la modifier par incréments. Le product owner générait le PDF sous word et créait un ticket pour l’intégrer dans l’application.
 * Notre application a évolué et nous avons maintenant 2 versions de celles-ci : une destinée aux libraires, l’autre aux bibliothécaires, et la gestion de deux fichiers Word était compliquée pour notre Product Owner.
-* La saisie de certaines parties de la documentation étaient chronophage : des sections comme “Conseil d’utilisation” étaient parfois longues à rédiger car prenaient du temps pour les mettre en forme.
+* La saisie de certaines parties de la documentation était chronophage : des sections comme “Conseil d’utilisation” étaient parfois longues à rédiger car prenaient du temps pour les mettre en forme.
 * La présentation et le contenu étaient mélangés et il était difficile d’avoir un rendu similaire et centralisé dans toute la documentation.
 
 Nous avions donc plusieurs besoins :
@@ -36,7 +36,7 @@ Nous avions donc plusieurs besoins :
 Au début des réflexions, nous nous sommes demandés si un stockage de la documentation sous git ne pouvait pas être une bonne chose : cela aurait permis de faire des Pull Requests et de la revue de documentation. Après une phase de recherche, nous n’avons pas trouvé d’outil permettant aux fonctionnels de pouvoir facilement contribuer de cette façon (c’était soit des outils en SaaS payants et peu flexibles, soit de l’utilisation d’un IDE en local/git mais complexifiant grandement la contribution).
 
 Dans les outils/formats candidats potentiels nous avions donc :
-* Markdown : avec un des nombreux d’outils de générateurs de site statiques du marché. Mais le Markdown bénéficie de peu de fonctionnalités liés à des grosses documentations (conditions, notes, macros…).
+* Markdown, avec l'un des nombreux d’outils de générateurs de site statique du marché. Mais le Markdown bénéficie de peu de fonctionnalités liés à des grosses documentations (conditions, notes, macros…).
 * reStructuredText : avec [sphinx-doc](http://www.sphinx-doc.org/) : très adapté à la documentation, mais ayant un écosystème vieillissant et une syntaxe parfois peu naturelle.
 * AsciiDoc : avec [Asciidoctor](https://asciidoctor.org/) ou l’un de ses portages. A un écosystème très dynamique, et une syntaxe naturelle, facile à utiliser par tout type de public (assez proche du markdown sur certains points).
 
@@ -60,7 +60,7 @@ Comme vu précédemment, le contenu de la documentation est donc par la tâche c
 
 La documentation est longue, nous nous devions de conserver les différentes versions, et ce, notamment pour pouvoir revenir dessus en cas d’erreur de saisie.
 
-Le projet ORB est en PHP et utilise l’ORM Doctrine pour une bonne part de ses interactions avec la base de données. Des extensions à Doctrine permettent de gérer le versionning, mais ci nous ne les avons pas utilisées : nous avons fait simple et créé une table contenant sur chaque ligne une version de la documentation, avec comme informations le contenu de la documentation, qui l’a mis à jour et quand elle a été générée. 
+Le projet ORB est en PHP et utilise l’ORM Doctrine pour une bonne part de ses interactions avec la base de données. Des extensions à Doctrine permettent de gérer le versionning, mais ici nous ne les avons pas utilisées : nous avons fait simple et créé une table contenant sur chaque ligne une version de la documentation, avec comme informations le contenu de la documentation, qui l’a mis à jour et quand elle a été générée.
 
 A chaque mise à jour de la documentation, nous créons une nouvelle ligne en base et concevons ainsi l’historique de tous les changements. Actuellement, aucun mécanisme n’est prévu dans l’administration pour consulter ces versions : si le besoin s’en fait ressentir nous pourrons l’ajouter. 
 
@@ -112,7 +112,7 @@ Dans la zone de texte à gauche toute la documentation y est saisie. A droite, l
 
 # Conclusion
 
-Pour finir, si vous avez un projet de documentation, nous vous conseillons fortement à étudier si AsciiDoc correspond à votre besoin. Nous avons pu l’intégrer à notre application et l’adapter facilement à nos usages et il a notamment permis de générer des documentations PDF très qualitatives. Ce nouveau workflow a été très bien accueilli par le public peu fonctionnel : sur les 7 premiers mois après la mise en place du projet, nous avons environ 300 versions de créées (soit en moyenne 2 versions par jour).
+Pour finir, si vous avez un projet de documentation, nous vous conseillons fortement à étudier si AsciiDoc correspond à votre besoin. Nous avons pu l’intégrer à notre application et l’adapter facilement à nos usages et il a notamment permis de générer des documentations PDF très qualitatives. Ce nouveau workflow a été très bien accueilli par le public fonctionnel : sur les 7 premiers mois après la mise en place du projet, nous avons environ 300 versions de créées (soit en moyenne 2 versions par jour).
 
 
 Nous tenons à remercier [Dan Allen](https://twitter.com/mojavelinux) et [tous les contributeurs](https://github.com/orgs/asciidoctor/people) de ce projet et son écosystème.
