@@ -54,7 +54,7 @@ Ces versions de la documentation vont être stockées sur notre serveur. Nous ac
 
 La documentation HTML générée en front peut être personnalisée très facilement : Asciidoctor utilise des [templates ERB](http://ruby-doc.org/stdlib-2.5.3/libdoc/erb/rdoc/ERB.html) et nous avons, via l’option “[template-dir](https://asciidoctor.org/docs/user-manual/#document-conversion)”, utilisé notre propre template qui nous a permis de simplifier le thème de base pour ne garder que le contenu du body.
 
-Comme vu précédemment, le contenu de la documentation est donc par la tâche cron : c’est un contrôleur qui va servir le contenu en utilisant des fichiers sources différents selon si l’utilisateur est dans une version librairie ou bibliothèque.
+Comme vu précédemment, le contenu de la documentation est donc généré par la tâche cron : c’est un contrôleur qui va servir le contenu en utilisant des fichiers sources différents selon si l’utilisateur est dans une version librairie ou bibliothèque.
 
 ## Historisation des changements
 
