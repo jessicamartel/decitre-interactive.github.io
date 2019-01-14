@@ -54,7 +54,7 @@ Ces versions de la documentation vont être stockées sur notre serveur. Nous ac
 
 La documentation HTML générée en front peut être personnalisée très facilement : Asciidoctor utilise des [templates ERB](http://ruby-doc.org/stdlib-2.5.3/libdoc/erb/rdoc/ERB.html) et nous avons, via l’option “[template-dir](https://asciidoctor.org/docs/user-manual/#document-conversion)”, utilisé notre propre template qui nous a permis de simplifier le thème de base pour ne garder que le contenu du body.
 
-Comme vu précédemment, le contenu de la documentation est donc par la tâche cron : c’est un contrôleur va servir le contenu contenu en utilisant des fichiers sources différents selon si l’utilisateur est dans une version librairie ou bibliothèque.
+Comme vu précédemment, le contenu de la documentation est donc par la tâche cron : c’est un contrôleur qui va servir le contenu en utilisant des fichiers sources différents selon si l’utilisateur est dans une version librairie ou bibliothèque.
 
 ## Historisation des changements
 
@@ -67,7 +67,7 @@ A chaque mise à jour de la documentation, nous créons une nouvelle ligne en ba
 ## Prévisualisation des changements dans l’administration
 
 
-Bien que nous affichons un lien vers le référentiel de la syntaxe AsciiDoc, une prévisualisation du rendu de la documentation nous est apparu nécessaire, cela dans le but de valider que le texte saisi donne le rendu escompté.
+Bien que nous affichons un lien vers le référentiel de la syntaxe AsciiDoc, une prévisualisation du rendu de la documentation nous est apparue nécessaire, cela dans le but de valider que le texte saisi donne le rendu escompté.
 
 Afin de générer cet aperçu nous avons utilisé [Asciidoctor.js](https://asciidoctor.org/docs/asciidoctor.js/). Le temps de génération de documentation n’étant pas instantané, la prévisualisation se met à jour seulement quand l’utilisateur clique sur un bouton dédié (nous avons gardé les choses simples dans cette première version de l’interface de saisie de la documentation, qui est déjà une grande amélioration par rapport à la précédente).
 
