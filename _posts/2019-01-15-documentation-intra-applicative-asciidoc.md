@@ -2,7 +2,7 @@
 layout: post
 title: Générer une documentation intra-applicative avec Asciidoc
 author: agallou
-date: 2019-01-08 10:00:00+01:00
+date: 2019-01-15 10:00:00+01:00
 excerpt: Générer une documentation intra-applicative avec Asciidoc
 ---
 
