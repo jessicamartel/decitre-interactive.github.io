@@ -46,7 +46,7 @@ Dans les outils/formats candidats potentiels nous avions donc :
 
 Notre choix s’est donc porté sur Asciidoctor qui à la base est écrit en Ruby. Ne souhaitant pas maintenir une stack Ruby en production, nous sommes partis sur l’implémentation en Java : [AsciidoctorJ](https://asciidoctor.org/docs/asciidoctorj/) (Java étant déjà installé sur nos serveurs pour Elasticsearch).
 
-Nous avons donc une tâche cron qui tourne régulièrement (tous les quarts d’heure) et qui, s’il y a eu des changements dans la documentation, va en lancer la génération. La documentation est générée 4 fois : une version librairie et une version bibliothèque, toutes deux avec un format PDF et un format HTML. Cette génération prends environ 30 secondes.
+Nous avons donc une tâche cron qui tourne régulièrement (tous les quarts d’heure) et qui, s’il y a eu des changements dans la documentation, va en lancer la génération. La documentation est générée 4 fois : une version librairie et une version bibliothèque, toutes deux avec un format PDF et un format HTML. Cette génération prend environ 30 secondes.
 
 Ces versions de la documentation vont être stockées sur notre serveur. Nous accédons ensuite à ces fichiers depuis le front de notre application pour les servir / intégrer (nous planifions de pouvoir dans l’application ajouter des liens vers certaines de parties de la documentation).
 
