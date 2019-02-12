@@ -45,7 +45,7 @@ Cela vient avec son lot de catalogues publicitaires reçus (très) régulièreme
     />
     <noscript><img src="{{ '/assets/posts/marketing-diversite/jamais_sans_windev-1.jpg' | prepend: site.baseurl  }}" /></noscript>
 
-    <figcaption>Un exemple parmis tant d'autres que ça en est déprimant</figcaption>
+    <figcaption>Un exemple parmi tant d'autres que ça en est déprimant</figcaption>
 </figure>
 
 ### Sérieusement, j'ai honte
