@@ -33,7 +33,7 @@ Chez Decitre, une des applications maintenue par l’équipe Resadec (notre ERP)
     <figcaption>Dès la couverture, le rapport au développement est limpide, non ?</figcaption>
 </figure>
 
-Cela vient avec son lot de catalogues publicitaires reçus (très) régulièrement pour nous vendre la nouvelle version de leur outil. Jusque là, rien d'anormal. Sauf qu'à chaque nouveau catalogue (ou flyer) reçu, c'est toujours la même chose et la même question qui revient : Combien de photos de mannequins dégradantes dans l'édition d'aujourd'hui ?
+Cela vient avec son lot de catalogues publicitaires reçus (très) régulièrement pour nous vendre la nouvelle version de leur outil. Jusque là, rien d'anormal. Sauf qu'à chaque nouveau catalogue (ou flyer) reçu, c'est toujours la même chose et la même question qui revient : Combien de photos dégradantes de mannequins dans l'édition d'aujourd'hui ?
 
 <figure>
     <img 
