@@ -2,7 +2,7 @@
 layout: post
 title: Refonte de nos 3 millions de visuels produits - Les aventuriers du coffre perdu
 author: srogier
-date: 2019-02-13 10:00:00+01:00
+date: 2019-03-13 10:00:00+01:00
 excerpt: Refonte de nos 3 millions de visuels produits - Les aventuriers du coffre perdu
 ---
 
