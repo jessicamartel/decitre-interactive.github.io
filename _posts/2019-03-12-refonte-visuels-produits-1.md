@@ -244,7 +244,7 @@ Pour nous aider à analyser ce qui reste, nous nous sommes créé une interface 
 
 L’étape est légèrement fastidieuse, mais cela nous permet de préparer une base utilisant le plus possible des visuels qualitatifs à la place des GIFs.
 
-Une quarantaine d’heures d’analyse plus tard, les choix restants ont été faits. Certains règles automatiques ont été affinées, les images avec un score dssim proche du seuil fixé ont été traités manuellement, et pour les autres nous avons conservé la version de production.
+Une quarantaine d’heures d’analyse plus tard, les choix restants ont été faits. Certaines règles automatiques ont été affinées, les images avec un score dssim proche du seuil fixé ont été traitées manuellement, et pour les autres nous avons conservé la version de production.
 
 ## La suite au prochain épisode
 
