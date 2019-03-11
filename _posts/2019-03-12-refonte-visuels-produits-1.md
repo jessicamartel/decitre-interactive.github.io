@@ -99,7 +99,7 @@ On pourrait se dire que c’est bien d’avoir des visuels de mauvaise qualité,
 
 Eh bien, non ! Malgré une faible quantité de couleur, on arrive à des poids d’images allant jusqu’à quelques dizaines de kilo-octets. Ce poids on pourrait facilement l’atteindre avec un format JPEG ou PNG sans travailler sur sa compression : on est donc perdant en qualité et poids.
 
-Un point positif malgré tout, seul le visuel principal subi ce traitement (#historique). Les autres visuels (quatrième de couverture, extraits du livre, autres angles de vue du produit) nous sont envoyés aux formats PNG ou JPEG.
+Un point positif malgré tout, seul le visuel principal subit ce traitement (#historique). Les autres visuels (quatrième de couverture, extraits du livre, autres angles de vue du produit) nous sont envoyés aux formats PNG ou JPEG.
 
 ### Le fonctionnement des images avant la refonte
 
@@ -125,7 +125,7 @@ Voici donc ce que l’on souhaite obtenir dans le cadre de cette refonte :
 * trouver un **compromis acceptable entre le poids et la qualité** des visuels générés,
 * à terme, fournir des **images adaptées pour les écrans à haute densité** de pixels (_Retina_ ou _Super-AMOLED_ selon les marques).
 
-On va pouvoir recevoir un nouveau flux venant de l’ERP, avec des visuels non altérés, c’est-à-dire qui n’ont subit aucune transformation de format ou de redimensionnement et dans un format d’origine (qui ne sera pas du GIF).
+On va pouvoir recevoir un nouveau flux venant de l’ERP, avec des visuels non altérés, c’est-à-dire qui n’ont subi aucune transformation de format ou de redimensionnement et dans un format d’origine (qui ne sera pas du GIF).
 
 Pour les futures images, c’est une bonne nouvelle. Le problème, c’est l’historique.
 
@@ -224,9 +224,9 @@ Pour faire ce choix, nous avons considéré que tout score inférieur à 0.0015 
 
 On pose également quelques règles de décision automatiques peu importe le score (par exemple, on considère que certaines sources sont forcément les bonnes).
 
-Cela nous laisse à peu près 20 000 images pour lesquelles nous n’avons pas pu prendre de décisions.
+Cela nous laisse à peu près 20 000 images pour lesquelles nous n’avons pas pu prendre de décision.
 
-Pour nous aider à analyser ce qui reste, nous nous sommes créé une interface affichant les deux images et les différentes propriétés puis, visuel après visuel, on indique lequel doit être conservé.
+Pour nous aider à analyser ce qui reste, nous nous sommes créés une interface affichant les deux images et les différentes propriétés puis, visuel après visuel, on indique lequel doit être conservé.
 
 <figure>
     <img 
