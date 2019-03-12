@@ -2,8 +2,9 @@
 layout: post
 title: Refonte de nos 3 millions de visuels produits - Les aventuriers du coffre perdu
 author: srogier
-date: 2019-03-13 10:00:00+01:00
+date: 2019-03-12 10:00:00+01:00
 excerpt: Refonte de nos 3 millions de visuels produits - Les aventuriers du coffre perdu
+image: /assets/posts/refonte-visuels-produits-1/post.png
 ---
 
 Cet article est le premier d’une série qui va parler de la refonte de nos visuels produits sur [decitre.fr](https://www.decitre.fr). 
