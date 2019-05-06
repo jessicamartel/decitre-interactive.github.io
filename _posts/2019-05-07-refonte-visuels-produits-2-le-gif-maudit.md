@@ -147,7 +147,7 @@ Parmi les métriques à surveiller, nous avons choisi :
 * le temps de génération de l’image optimisée,
 * le score DSSIM par rapport à l’original.
 
-> Pour rappel le score DSSIM est un calcul de dissimilarité entre images, qui nous permet d’évaluer si deux images sont similaires ou non. Nous avions déjà utilisé cet outils lors de [la constitution du catalogue de visuel originaux](https://tech.decitre.fr/posts/refonte-visuels-produits-1-les-aventuriers-du-coffre-perdu#automatiser-les-comparaisons).
+> Pour rappel le score DSSIM est un calcul de dissimilarité entre images, qui nous permet d’évaluer si deux images sont similaires ou non. Nous avions déjà utilisé cet outil lors de [la constitution du catalogue de visuel originaux](https://tech.decitre.fr/posts/refonte-visuels-produits-1-les-aventuriers-du-coffre-perdu#automatiser-les-comparaisons).
 
 Pour chacune des images sources de notre échantillon, nous allons générer les différentes tailles d’images attendues sur nos sites.
 
@@ -256,7 +256,7 @@ On analyse ensuite le temps de traitement nécessaire pour fabriquer chacune de 
     />
     <noscript><img src="{{ '/assets/posts/refonte-visuels-produits-2/graph_temps.svg' | prepend: site.baseurl  }}" /></noscript>
 
-    <figcaption>Percentiles des temps de génération par outil (on n’a pas l’occasion tous les jours d’utiliser une echelle logarithmique)</figcaption>
+    <figcaption>Percentiles des temps de génération par outil (on n’a pas l’occasion tous les jours d’utiliser une échelle logarithmique)</figcaption>
 </figure>
 
 
