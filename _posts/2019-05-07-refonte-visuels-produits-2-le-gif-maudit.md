@@ -4,6 +4,7 @@ title: Refonte de nos 3 millions de visuels produits - Le GIF maudit
 author: srogier
 date: 2019-05-07 10:00:00+01:00
 excerpt: Refonte de nos 3 millions de visuels produits - Le GIF maudit
+image: /assets/posts/refonte-visuels-produits-2/post.png
 ---
 
 Après plusieurs jours (voire semaines) d’effort, nous avons [précédemment récupéré 2.5 millions d’images](https://tech.decitre.fr/posts/refonte-visuels-produits-1-les-aventuriers-du-coffre-perdu) non redimensionnées ou optimisées pour un usage Web. Que va-t-on pouvoir en faire ?
