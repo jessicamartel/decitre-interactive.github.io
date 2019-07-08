@@ -251,5 +251,5 @@ Une quarantaine d’heures d’analyse plus tard, les choix restants ont été f
 
 La morale de toute cette première phase est la suivante : vu le coût du stockage aujourd’hui, la valeur de ce type de média et les nouveaux formats numériques à venir (dont on ne connaît pas encore l’existence), backupez proprement vos originaux :)
 
-Malgré cela, toutes ces étapes de préparation nous ont permis de reconstituer notre historique d’une manière plutôt fiable. L’étape a été plutôt longue, le temps d’identifier et récupérer les différents contenus, enchaîner des journées de calculs, mais nous sommes désormais prêts à construire notre nouveau catalogue d’images produits, mais cela fera l’objet d’un prochain article.
+Malgré cela, toutes ces étapes de préparation nous ont permis de reconstituer notre historique d’une manière plutôt fiable. L’étape a été plutôt longue, le temps d’identifier et récupérer les différents contenus, enchaîner des journées de calculs, mais nous sommes désormais prêts à construire notre nouveau catalogue d’images produits, mais cela fera l’objet d’un [prochain article](https://tech.decitre.fr/posts/refonte-visuels-produits-2-le-gif-maudit).
 
