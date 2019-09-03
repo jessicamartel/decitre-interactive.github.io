@@ -31,7 +31,7 @@ permettant, entre-autres, la consultation de cette base de données du livre pou
 ## Le poste
 
 Nous recherchons pour notre siège, basé à Lyon 8ème, en CDI, un·e développeur·se PHP motivé·e pour rejoindre notre équipe technique, 
-actuellement composée de 5développeurs (Adrien, Bruno, Sébastien x2 et Vincent), d'un CTO (Eric) et d'une product owner (Jessica).
+actuellement composée de 5 développeurs (Adrien, Bruno, Sébastien x2 et Vincent), d'un CTO (Eric) et d'une product owner (Jessica).
 
 Vous serez amenés à faire évoluer nos différentes plateformes (e-commerce & méta-données), du frontend au backend, dans un 
 contexte agile permettant de vous exprimer et de partager au maximum avec l'équipe, avec des problématiques de performances 
