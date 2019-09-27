@@ -137,4 +137,4 @@ Salaire suivant profil/expérience
 
 ## Ça m'intéresse, commment je postule ?
 
-Vous pouvez postuler directement [sur notre site de recrutement](http://www.decitre-recrutement.com/nos-offres-d-emploi/).
+Vous pouvez postuler directement [sur notre site de recrutement](http://www.decitre-recrutement.com/nos-offres-d-emploi/decitre-fr/368-cto-h-f-fr/).
