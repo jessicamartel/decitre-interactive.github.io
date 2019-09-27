@@ -36,7 +36,7 @@ actuellement composée de 5 développeurs (Adrien, Sébastien x2, Vincent et [un
 Sous la responsabilité du directeur général de Decitre Interactive, vous serez le garant des aspects technologiques des 
 projets web du groupe. Une très bonne vision business sera nécessaire afin de faire au mieux le pont entre technologie et business.
 
-Le management et la gestion d’équipe sera au coeur de votre métier, afin d’amener l’équipe et ses personnes à développer 
+Le management et la gestion d’équipe seront au coeur de votre métier, afin d’amener l’équipe et ses personnes à développer 
 leur plein potentiel.
 
 Vous veillerez à la performance et l’optimisation des sites internet du groupe avec un haut niveau de qualité.
