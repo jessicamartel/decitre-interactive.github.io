@@ -11,32 +11,25 @@ layout: default
 
         <p class="post--meta">
 
-            {% if authors.size == 1 %}
-                {% for author in authors %}
-                    {% assign authorInfo = site.data.authors[author] %}
-                    {% if authorInfo.gravatar %}
-                        <img
-                            src="https://www.gravatar.com/avatar/{{authorInfo.gravatar}}.png?s=50"
-                            alt="{{ authorInfo.name }}"
-                            class="post--author-avatar rounded-circle"
-                        />
-                    {% endif %}
+            {% for author in authors %}
+                {% assign authorInfo = site.data.authors[author] %}
+                {% if authorInfo.gravatar %}
+                    <img
+                        src="https://www.gravatar.com/avatar/{{authorInfo.gravatar}}.png?s=50&d=identicon"
+                        alt="{{ authorInfo.name }}"
+                        class="post--author-avatar rounded-circle"
+                    />
+                {% endif %}
+            {% endfor %}
 
-                    Par
+            Par
 
-                    <span class="post--author">
-                        {{ authorInfo.name }},
-                    </span>
-                {% endfor %}
-            {% elsif authors.size > 1 %}
-                Par
-                {% for author in authors %}
-                    {% assign authorInfo = site.data.authors[author] %}
-                    <span class="post--author">
-                        {{ authorInfo.name }},
-                    </span>
-                {% endfor %}
-            {% endif %}
+            {% for author in authors %}
+                {% assign authorInfo = site.data.authors[author] %}
+                <span class="post--author">
+                    {{ authorInfo.name }},
+                </span>
+            {% endfor %}
 
             le {% include format_date.html date=page.date %}
         </p>
