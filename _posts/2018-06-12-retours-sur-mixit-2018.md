@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Nos retours sur MiXiT 2018
-author: srogier
+author: elemoine,srogier
 date: 2018-06-12 15:45:00+01:00
 excerpt: Nous étions à MiXiT 2018, voici nos retours :)
 image: /assets/posts/retours-sur-mixit-2018/logo-mixit.png
