@@ -7,7 +7,8 @@ main_css_classname: homepage
 
     <ul class="post-link-list list-unstyled">
         {% for post in site.posts %}
-        {% assign author = site.data.authors[post.author] %}
+        {% assign authors = post.author | split: "," %}
+
 
         <li class="post-link-item">
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
@@ -16,7 +17,15 @@ main_css_classname: homepage
 
             <span class="post-link-item--meta">Publié le {% include format_date.html date=post.date %}
 
-                par {{ author.name}}</span>
+                par
+                {% for author in authors %}
+                    {% assign authorInfo = site.data.authors[author] %}
+                    <span class="post--author">
+                        {{ authorInfo.name }}{% if forloop.last != true %}, {% endif %}
+                    </span>
+                {% endfor %}
+
+            </span>
         </li>
         {% endfor %}
     </ul>
