@@ -3,7 +3,7 @@ layout: post
 title: Furet.com &#58; comment nous avons migré un site de e-commerce de 2 millions de références en 2 minutes...
 author: jmartel,cpeney,srogier
 date: 2019-12-05 08:00:00+01:00
-excerpt: Retour sur le BlendWebMix 2019
+excerpt: Découvrez les différentes étapes qui ont composées cette migration
 ---
 
 En janvier 2019, la société Furet du Nord rachetait les sociétés Decitre et Decitre Interactive ; nous devenions le groupe Furet Decitre. De nombreux projets d'harmonisation ont eu lieu et d’autres sont encore menés afin d’unir ces deux enseignes. 
