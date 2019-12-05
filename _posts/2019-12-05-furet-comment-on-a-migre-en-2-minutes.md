@@ -2,7 +2,7 @@
 layout: post
 title: Furet.com &#58; comment nous avons migré un site de e-commerce de 2 millions de références en 2 minutes...
 author: jmartel,cpeney,srogier
-date: 2019-11-18 10:00:00+01:00
+date: 2019-12-05 08:00:00+01:00
 excerpt: Retour sur le BlendWebMix 2019
 ---
 
