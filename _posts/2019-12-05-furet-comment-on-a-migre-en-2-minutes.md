@@ -32,10 +32,9 @@ L’un des projets était la transformation et la migration du site [furet.com](
                     class="lozad" 
                     width="110" height="110"
                     src="data:image;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//j/2wBDASstLTw1PHZBQXb4pYyl+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj/wgARCAAUABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAECA//EABYBAQEBAAAAAAAAAAAAAAAAAAACBP/aAAwDAQACEAMQAAABzXmNGSSqgA//xAAZEAACAwEAAAAAAAAAAAAAAAAAEQEQMUH/2gAIAQEAAQUCQprjJ2//xAAVEQEBAAAAAAAAAAAAAAAAAAARIP/aAAgBAwEBPwFj/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAFxAAAwEAAAAAAAAAAAAAAAAAABAxIP/aAAgBAQAGPwJ0uf/EABoQAQACAwEAAAAAAAAAAAAAAAEAESAhQWH/2gAIAQEAAT8htVzyiI0wdI6x3//aAAwDAQACAAMAAAAQz888/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAEQETH/2gAIAQMBAT8QsLJ//8QAFREBAQAAAAAAAAAAAAAAAAAAESD/2gAIAQIBAT8QI//EABoQAQADAQEBAAAAAAAAAAAAAAEAESFhIDH/2gAIAQEAAT8Qz1sdnXHQUkMwWFUxKJ+jcjGw3Zr3x//Z"
-                    data-src="{{ '/assets/posts/migration-furet/logo_furet-1.jpg' | prepend: site.baseurl  }}" 
-                    data-srcset="{{ '/assets/posts/migration-furet/logo_furet-1.jpg' | prepend: site.baseurl  }} 1x, {{ '/assets/posts/migration-furet/logo_furet-2.jpg' | prepend: site.baseurl  }} 2x" 
+                    data-src="{{ '/assets/posts/migration-furet/logo_furet.png' | prepend: site.baseurl  }}" 
                 />
-                <noscript><img src="{{ '/assets/posts/migration-furet/logo_furet-1.jpg' | prepend: site.baseurl  }}" /></noscript>
+                <noscript><img src="{{ '/assets/posts/migration-furet/logo_furet.png' | prepend: site.baseurl  }}" /></noscript>
 
             
             </figure>
@@ -255,7 +254,7 @@ Cela nous a permis de migrer toutes les données souhaitées, de suivre et faire
 
 Pendant près d’un mois, nous avons chargé toutes ces données sur notre production (la future version de furet.com et surtout les serveurs de production où tournent decitre.fr et nos  marques blanches) et pris le temps de gérer la plupart des problèmes de migration rencontrés avant que la bascule du site ne soit effectuée.
 
-De la même manière, nous avons travaillé avec [Vivlio](https://www.vivlio.fr/) pour migrer en continu également toutes les commandes ebooks qui étaient sur leur plateforme vers la nôtre. Pour ces commandes, nous avons utilisé une API de synchronisation présente sur decitre.fr qui permet de récupérer toute commande passée dans l’écosystème Vivlio pour les passer sur notre plateforme. De cette façon, nous avons pu récupérer les achats faits par les clients de furet.com peu importe la plateforme où ils ont été effectués.
+De la même manière, nous avons travaillé avec [Vivlio](https://www.vivlio.fr/) pour migrer en continu également toutes les commandes ebooks qui étaient sur leur plateforme vers la nôtre. Pour ces commandes, nous avons utilisé une API de synchronisation présente sur decitre.fr qui permet de récupérer toute commande passée dans l’écosystème Vivlio pour les rendre disponibles sur notre plateforme. De cette façon, nous avons pu récupérer les achats faits par les clients de furet.com peu importe la plateforme où ils ont été effectués.
 
 ### La migration bascule DNS
 
