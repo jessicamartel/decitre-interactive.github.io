@@ -41,6 +41,12 @@
     height: auto;
   }
 
+  .overflow-auto {
+    img, video {
+      max-width: none;
+    }
+  }
+
   .language-xml, .language-java {
     background-color: #eeeeee;
     .highlight {
