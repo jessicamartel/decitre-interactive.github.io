@@ -4,7 +4,7 @@ title: Refonte de nos 3 millions de visuels produits - La dernière génération
 author: srogier
 date: 2020-02-06 10:00:00+01:00
 excerpt: Refonte de nos 3 millions de visuels produits - La dernière génération
-image: /assets/posts/refonte-visuels-produits-3/post.jpg
+image: /assets/posts/refonte-visuels-produits-3/meta.jpg
 ---
 
 
