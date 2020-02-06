@@ -1,0 +1,6 @@
+_id: 77eb3a80-48d5-11ea-aabc-91fe5beb9ae2
+replying_to: ''
+name: Greg
+email: 7602f2751868682b296171f58589c851
+message: "Hello.\r\n\r\nMerci beaucoup pour cet article. Il est très intéressant et bien écrit.\r\n\r\nJ'ai quand même deux questions et/ou interrogations.\r\n\r\n1. Nous avons utilisé la technique du lazy load sur un projet client pour 90% des images. Mais certains images (10%) devaient être référencées par Google. Nous n'avons pas trouver de technique simple pour palier ce problème. Comment avez vous gérer ce cas ?\r\n\r\n2. Il me semble que vous ne spécifiez pas de de `width` & `height` sur vos images. Cela veut dire que la zone de l'image n'est pas réserver par le browser. Quand l'image arrive, ca va provoquer un \"repaint\" complet de la page. Comment avez vous gérer ce cas ?"
+date: '2020-02-06T11:40:26.856Z'
