@@ -150,8 +150,6 @@ Pour valider cette génération, nous avons extrait des données à partir de to
     <figcaption>Gain poids des WebP par rapport aux JPEG</figcaption>
 </figure>
 
-https://docs.google.com/spreadsheets/d/1-Z6Nhh9e5o3XJMrlLaCprgMfHOExjsdPD2cbsdy2Vv8/edit#gid=350179677
-
 Déjà,  première confirmation : les fichiers WebP sont plus légers que les fichiers JPEG.
 On constate un gain médian de 40 % et au 90e percentile le gain est de l’ordre de 30 %. Cela s’annonce plutôt bien pour la performance Web :)
 
