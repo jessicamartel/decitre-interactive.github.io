@@ -324,11 +324,9 @@ En comparant les poids totaux sur notre fiche produit, nous avons bien la confir
     />
     <noscript><img src="https://media.giphy.com/media/ZgYBhq1x7L1bW/giphy.gif" /></noscript>
 
-    <figcaption>(source : <a href="https://media.giphy.com/media/ZgYBhq1x7L1bW/giphy.gif">https://media.giphy.com/media/ZgYBhq1x7L1bW/giphy.gif</a>)</figcaption>
+    <figcaption>WebP par rapport à JPEG ? (source : <a href="https://media.giphy.com/media/ZgYBhq1x7L1bW/giphy.gif">https://media.giphy.com/media/ZgYBhq1x7L1bW/giphy.gif</a>)</figcaption>
 </figure>
 
-https://media.giphy.com/media/ZgYBhq1x7L1bW/giphy.gif
-WebP par rapport à JPEG ?
 
 En désactivant le lazy loading et donc en forçant le chargement de toutes les images présentes sur une fiche produit, la version avec JPEG charge 466 Ko d’image contre 323 Ko pour la version WebP. On obtient ainsi, pour notre exemple, un **gain de près de 40 %**.
 
