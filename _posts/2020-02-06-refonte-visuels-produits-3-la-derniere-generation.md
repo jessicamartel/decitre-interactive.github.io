@@ -328,7 +328,7 @@ En comparant les poids totaux sur notre fiche produit, nous avons bien la confir
 </figure>
 
 
-En désactivant le lazy loading et donc en forçant le chargement de toutes les images présentes sur une fiche produit, la version avec JPEG charge 466 Ko d’image contre 323 Ko pour la version WebP. On obtient ainsi, pour notre exemple, un **gain de près de 40 %**.
+En désactivant le lazy loading et donc en forçant le chargement de toutes les images présentes sur une fiche produit, la version avec JPEG charge 466 Ko d’image contre 323 Ko pour la version WebP. On obtient ainsi, pour notre exemple, un **gain de près de 30 %**.
 
 ### Impact des images haute résolution
 
