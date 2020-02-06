@@ -6,7 +6,6 @@ date: 2020-02-06 10:00:00+01:00
 excerpt: Refonte de nos 3 millions de visuels produits - La dernière génération
 image: /assets/posts/refonte-visuels-produits-3/post.jpg
 ---
-Refonte de nos 3 millions de visuels produits - La dernière génération
 
 
 Nous avons généré et utilisons [nos nouveaux JPEG](https://tech.decitre.fr/posts/refonte-visuels-produits-2-le-gif-maudit) tout propres en production. Comme expliqué précédemment, le gain de cette première étape est principalement axé sur la qualité. En effet, les JPEGs générés ont un poids relativement proche de celui de nos anciens GIFs, mais avec une meilleure qualité visuelle.
@@ -47,7 +46,7 @@ Autre distinction avec JPEG, le format WebP gère la compression de manière dif
 </figure>
 
 
-Dans l’exemple ci-dessus, là où JPEG aurait créé de gros artefacts sur les qualités basses, on constate que l’effet sur le sable se lisse. Plus la qualité baisse, plus l’impression d’un sable plat est présent.
+Dans l’exemple ci-dessus, là où JPEG aurait créé de gros artefacts sur les qualités basses, on constate que l’effet sur le sable se lisse. Plus la qualité baisse, plus l’impression d’un sable plat est présente.
 
 Cela nous permet d’utiliser des versions dégradées de nos images avec une plus faible qualité et donc un niveau moindre de détail sans que cela soit choquant à l’œil.   
   
@@ -337,7 +336,7 @@ En désactivant le lazy loading et donc en forçant le chargement de toutes les 
 
 ### Impact des images haute résolution
 
-On l’a vu, les images hautes résolutions ne garantissent pas une réduction du poids. Au contraire, dans 20% des cas, l’image haute résolution sera plus lourde que son équivalent basse résolution. Ce qui nous intéresse dans cette fonctionnalité sera donc la qualité.
+On l’a vu, les images hautes résolutions ne garantissent pas une réduction du poids. Au contraire, dans 20 % des cas, l’image haute résolution sera plus lourde que son équivalent basse résolution. Ce qui nous intéresse dans cette fonctionnalité sera donc la qualité.
 
 
 <div class="container">
